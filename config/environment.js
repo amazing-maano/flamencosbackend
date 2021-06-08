@@ -1,0 +1,17 @@
+module.exports = {
+  token_secret: process.env.TOKEN_SECRET,
+  port: process.env.PORT,
+  mongodb_uri: process.env.MONGODB_URI,
+  base_url: process.env.BASE_URL,
+  local_origin: process.env.LOCAL_ORIGIN,
+  firebase_origin: process.env.FIREBASE_ORIGIN,
+  netlify_origin: process.env.NETLIFY_ORIGIN,
+  smtp_host: process.env.SMTP_HOST,
+  smtp_port: process.env.SMTP_PORT,
+  smtp_username: process.env.SMTP_USERNAME,
+  smtp_password: process.env.SMTP_PASSWORD,
+  access_Key_Id: process.env.AWS_ACCESS_KEY_ID,
+  secret_Access_Key: process.env.AWS_SECRET_ACCESS_KEY,
+  region: process.env.AWS_REGION,
+  s3_bucket: process.env.AWS_BUCKET_NAME,
+};
